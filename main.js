@@ -70,6 +70,7 @@ function contactAction() {
         form.style.marginLeft = "3%";
     } else {
         infoWrapper.style.display = "flex";
+        form.style.width = "50%";
         form.style.marginLeft = "0";
     }
 }
